@@ -59,11 +59,11 @@ export default function Input() {
       <div>
         <input
           id="input"
+          name="input"
           type="text"
           onChange={changeInput}
           value={inputValue}
         />
-        {/* STEP 6 */}
         <button id="resetInput" onClick={reset}>
           Reset
         </button>
